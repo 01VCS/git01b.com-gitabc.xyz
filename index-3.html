@@ -14,9 +14,12 @@ console.log(ProfileLevel);
 console.log(RepoLevel);
 
 console.log(window.location.hash);
-console.log(pathArray[8]);
-console.log(pathArray[9]);
-console.log(pathArray[10]);
+//console.log(pathArray[8]);
+//console.log(pathArray[9]);
+//console.log(pathArray[10]);
+
+var count = (window.location.hash.split('/').length - 1) - (window.location.hash[window.location.hash.length - 1] == '/' ? 1 : 0);
+console.log(count);
 
 var repoheadingabt = document.getElementById('abtrepoheading');
 var text = document.createTextNode("Repo: " +ProfileLevel +"/" +RepoLevel);
