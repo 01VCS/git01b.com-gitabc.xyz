@@ -1,8 +1,5 @@
 Main Site:
-- use same font as from omni-link/gitorrent site
-- list of supported sites
-- credits footer, abt 01VCS
-- "tweet this" btn
+- "tweet this" btn https://publish.twitter.com/?buttonLarge=on&buttonType=TweetButton&widget=Button
 - markdown badge
 
 - identify if ProfileLevel="undefined", then display error or main site

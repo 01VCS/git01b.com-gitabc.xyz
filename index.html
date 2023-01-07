@@ -2,16 +2,50 @@
 <html lang="en-us">
 <head id="head">
 <meta name="theme-color" content="#00A185" />
+<link href="./fonts/WiredMono/font.css" rel="stylesheet">
 <title color="#fff">Git ABC*XYZ</title>
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta content="width=device-width,initial-scale=1,minimal-ui,shrink-to-fit=no" name="viewport">
 <meta name="pehtml" content="true">
 <meta name="directory" content="css, js, img, snd">
+<style>
+body{font-family: wired-mono,"tungsten",proxima-nova,ProximaNova-Bold,HelveticaNeue-Bold,"Helvetica Neue Bold","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;}
+</style>
 <!--<script src="../script.js"></script>-->
 </head>
 <body id="body">
-<h1 id="abtrepoheading"><element>Repo: </element></h1>
+<h2 id="abtrepoheading"><element>Repo: </element></h2>
+<div style="
+    float: left;
+    width: 50%;
+"><h1 style="
+    background: #f34f29;
+    color: #fff;
+">Git ABC*XYZ</h1><img src="favicon.png">
+<br><p>Why having to choose a <b>single git platform</b> to rely on? Why having a <b>different README.md with different link URLs</b> for every git platform? Why <b>having to share a different URL for every git platform</b> (for your profile, a repository) if you could share a single link?!</p>
+<p><u>To solve and cover all of these cases, here is our <mark>git profile/repo aggregator</mark>, gitabc.xyz!</u></p>
+</div>
+<div style="
+    float: right;
+    width: 40%;
+">
+    <h4>How this magic works?</h4><p>Git ABC*XYZ is a git profile/repo aggregator. Replace <code>github.com/</code> or <code>gitlab.com/</code> by <code>gitabc.xyz/#/</code> when sharing a git repo/profile, and VOALA!</p>
+    <p>When clicking <code>gitabc.xyz/#/profile</code> or <code>gitabc.xyz/#/profile/repository</code>, visitor will have access to all of the git platforms where your repo/profile may be! All aggregated/centered into a single site.</p>
+<h2>Supported sites:</h2>
+<ul>
+<li>Github</li>
+<li>Gitlab</li>
+</ul>
+<hr><small>
+    <p>To do:</p>
+    <ul>
+        <li>Form to suggest more sites</li>
+        <li>Detect 404 error on repos/profiles so don't show these sites</li>
+</ul>
+</small>
+</div>
+<footer><copyright><center>(c) 2023 Git ABC*XYZ by <a href="https://github.com/01VCS/" target="blank">01VCS</a> and <a href="https://danimesq.eth.link/" target="blank">Daniella Mesquita</a>.</center></copyright></footer>
 <script>
 // PREPARE FOR HTTB MOD-REWRITTING ---->
 //var count = (location.pathname.split('/').length - 1) - (location.pathname[location.pathname.length - 1] == '/' ? 1 : 0);
@@ -140,6 +174,8 @@ if(count !== '1'){
 //}
 //addElement()
 // from https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+
 </script>
 </body>
 </html>
