@@ -21,6 +21,12 @@
 //console.log(window.location.hash);
 // thanks to https://stackoverflow.com/a/6944772/5623661 (https://github.com/nicolekc), https://usefulangle.com/post/298/javascript-url-hash
 
+const SUPPORTEDSITES = { hub: "github.com", lab: "gitlab.com" };
+// thanks to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+
+console.log(SUPPORTEDSITES.hub);
+console.log(SUPPORTEDSITES.lab);
+
 var count = (window.location.hash.split('/').length - 1) - (window.location.hash[window.location.hash.length - 1] == '/' ? 1 : 0);
 // thanks to https://stackoverflow.com/a/28485576/5623661
 console.log(count);
