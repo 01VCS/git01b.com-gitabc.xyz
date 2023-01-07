@@ -1,2 +1,9 @@
-- identify if ProfileLevel="undefined", then display error
-- check if count != 1 and != 2, then display error
+- identify if ProfileLevel="undefined", then display error or main site
+- check if count != 1 and != 2, then display error or main site
+
+Main Site:
+- use same font as from omni-link/gitorrent site
+- list of supported sites
+- credits footer, abt 01VCS
+- "tweet this" btn
+- markdown badge
