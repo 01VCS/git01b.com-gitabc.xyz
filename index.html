@@ -37,7 +37,7 @@ const SUPPORTEDSITES = { hub: "github.com", lab: "gitlab.com" };
 
 var count = (window.location.hash.split('/').length - 1) - (window.location.hash[window.location.hash.length - 1] == '/' ? 1 : 0);
 // thanks to https://stackoverflow.com/a/28485576/5623661
-console.log(count);
+//console.log(count);
 
 var pathArray = window.location.hash.split('/');
 var ProfileLevel = pathArray[1];
@@ -47,10 +47,15 @@ console.log(ProfileLevel);
 console.log(RepoLevel);
 
 if(count == '2'){
-        console.log("Repo")
+        const gitlocationtype = "repo";
 }
 if(count == '1'){
-        console.log("Profile")
+        const gitlocationtype = "profile";
+}
+if(count !== '2'){
+if(count !== '1'){
+        const noreponoprofile = "y"
+}
 }
 
 //var repoheadingabt = document.getElementById('abtrepoheading');
