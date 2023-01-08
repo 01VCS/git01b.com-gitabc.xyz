@@ -4,3 +4,9 @@ Main Site:
 
 - identify if ProfileLevel="undefined", then display error or main site
 - check if count != 1 and != 2, then display error or main site
+
+HTTB:
+- Detect 404
+- Database so users could customize
+- Integration with 01Collab site
+- support to "git clone"
