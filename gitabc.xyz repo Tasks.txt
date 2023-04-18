@@ -1,0 +1,1 @@
+should work differently when at HTTB or at IPFS. in HTTB it will be more dinamic and support more platforms while in IPFS it will support only github+gitlab. this IPFS adaptation will also work under pghub.gitabc.xyz and pglab.gitabc.xyz subdomains!
