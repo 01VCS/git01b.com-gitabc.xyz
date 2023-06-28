@@ -1,5 +1,7 @@
 https://gitabc.xyz/#/danimesq/Desktop only display "Repo: " when 1-2 is valid; and know to display "Repo: " or "Profile: "
 
+gitabc.xyz's tutorial for mirroring from gitlab to github!
+
 Main Site:
 - "tweet this" btn https://publish.twitter.com/?buttonLarge=on&buttonType=TweetButton&widget=Button
 - markdown badge
