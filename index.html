@@ -94,6 +94,13 @@ gitlabDiv.innerHTML = `<a href="${gitlabLink}" target="_blank">GitLab</a>`;
 document.body.appendChild(gitlabDiv);
 // <---- thanks to ChatGPT
 
+//var s = document.getElementById("TOMOVE");
+var t = document.getElementById("abtrepoheading");
+//t.appendChild(s);
+t.appendChild(githubDiv);
+t.appendChild(gitlabDiv);
+// from https://code-boxx.com/move-html-element-javascript/
+
 if(count == '2'){
         const gitlocationtype = "repo";
 }
