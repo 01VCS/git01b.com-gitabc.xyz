@@ -78,8 +78,8 @@ var ProfileLevel = pathArray[1];
 var RepoLevel = pathArray[2];
 // thanks to https://css-tricks.com/snippets/javascript/get-url-and-url-parts-in-javascript/
 
-console.log(ProfileLevel);
-console.log(RepoLevel);
+console.log("user: ", ProfileLevel);
+console.log("repo: ", RepoLevel);
 
 // thanks to ChatGPT ---->
 const githubLink = `https://${SUPPORTEDSITES.hub}/${ProfileLevel}/${RepoLevel}`;
@@ -103,13 +103,16 @@ t.appendChild(gitlabDiv);
 
 if(count == '2'){
         const gitlocationtype = "repo";
+        console.log("gitlocationtype:", gitlocationtype);
 }
 if(count == '1'){
         const gitlocationtype = "profile";
+        console.log("gitlocationtype:", gitlocationtype);
 }
 if(count !== '2'){
 if(count !== '1'){
         const noreponoprofile = "y"
+        console.log("noreponoprofile: ", noreponoprofile);
 }
 }
 
