@@ -1,3 +1,8 @@
+to finalize cardpaper at my desk:
+-? ENS integration, IPFS
+- fully working
+- donations (ethereum, paypal, pix; with their icons!)
+
 instead of moving githubDiv/gitlabDiv, directly birch them to correct place
 
 fix:
