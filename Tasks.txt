@@ -8,6 +8,8 @@ if(count !== '1'){
 }
 }
 
+use fmwk for better grid system
+
 https://gitabc.xyz/#/danimesq/Desktop only display "Repo: " when 1-2 is valid; and know to display "Repo: " or "Profile: "
 
 gitabc.xyz's tutorial for mirroring from gitlab to github!
