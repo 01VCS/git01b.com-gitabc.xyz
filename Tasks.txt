@@ -14,3 +14,6 @@ HTTB:
 - Database so users could customize
 - Integration with 01Collab site
 - support to "git clone"
+
+"It is used as an aggregator for cases when a user have both a GitHub and a Gitlab with the very same username and repository URL name.
+So, instead of placing two links, all this user have to do is to share their git ABC*XYZ URL, like: https://gitabc.xyz/#/danimesq/Desktop"
