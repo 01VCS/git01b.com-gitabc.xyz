@@ -1,3 +1,13 @@
+instead of moving githubDiv/gitlabDiv, directly birch them to correct place
+
+fix:
+if(count !== '2'){
+if(count !== '1'){
+        const noreponoprofile = "y"
+        console.log("noreponoprofile: ", noreponoprofile);
+}
+}
+
 https://gitabc.xyz/#/danimesq/Desktop only display "Repo: " when 1-2 is valid; and know to display "Repo: " or "Profile: "
 
 gitabc.xyz's tutorial for mirroring from gitlab to github!
