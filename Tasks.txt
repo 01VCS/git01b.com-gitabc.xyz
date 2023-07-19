@@ -13,7 +13,6 @@ https://gitabc.xyz/#/danimesq/Desktop only display "Repo: " when 1-2 is valid; a
 gitabc.xyz's tutorial for mirroring from gitlab to github!
 
 Main Site:
-- "tweet this" btn https://publish.twitter.com/?buttonLarge=on&buttonType=TweetButton&widget=Button
 - markdown badge
 
 - identify if ProfileLevel="undefined", then display error or main site
