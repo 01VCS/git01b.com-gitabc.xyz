@@ -77,8 +77,22 @@ var pathArray = window.location.hash.split('/');
 var ProfileLevel = pathArray[1];
 var RepoLevel = pathArray[2];
 // thanks to https://css-tricks.com/snippets/javascript/get-url-and-url-parts-in-javascript/
+
 console.log(ProfileLevel);
 console.log(RepoLevel);
+
+// thanks to ChatGPT ---->
+const githubLink = `https://${SUPPORTEDSITES.hub}/${ProfileLevel}/${RepoLevel}`;
+const gitlabLink = `https://${SUPPORTEDSITES.lab}/${ProfileLevel}/${RepoLevel}`;
+
+const githubDiv = document.createElement("div");
+githubDiv.innerHTML = `<a href="${githubLink}" target="_blank">GitHub</a>`;
+document.body.appendChild(githubDiv);
+
+const gitlabDiv = document.createElement("div");
+gitlabDiv.innerHTML = `<a href="${gitlabLink}" target="_blank">GitLab</a>`;
+document.body.appendChild(gitlabDiv);
+// <---- thanks to ChatGPT
 
 if(count == '2'){
         const gitlocationtype = "repo";
