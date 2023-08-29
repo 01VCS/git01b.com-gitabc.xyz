@@ -1,3 +1,6 @@
+- own icon + logotype
+- /press
+
 to finalize cardpaper at my desk:
 -? ENS integration, IPFS
 - fully working
